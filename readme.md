@@ -25,7 +25,12 @@ The API-shopping will return a json file with the price of items from TESCO base
 http://localhost:8080/shopping?item=banana
 ```
 
-On the examble above, the result will bring the price of items with the word bananas on Tesco online store.
+In the example above, the result will bring the price of items with the word bananas on Tesco online store.
+
+To check a live example of the API working you can visit this address [API-shopping on HEROKU](https://api-shopping.herokuapp.com/
+) and here is a test for the item bananas [API-shopping on HEROKU](https://api-shopping.herokuapp.com/shopping?item=bananas
+)
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

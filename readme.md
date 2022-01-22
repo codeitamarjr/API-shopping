@@ -17,6 +17,16 @@ This last one is more for development since the objective is to load the API for
 npm install axios
 ```
 
+## Using
+
+The API-shopping will return the json file with the price of items from TESCO based on the request:
+
+```bash
+http://localhost:8080/shopping?item=banana
+```
+
+On the examble above, the result will bring the price of items with the word bananas on Tesco online store.
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

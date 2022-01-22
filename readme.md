@@ -19,7 +19,7 @@ npm install axios
 
 ## Using
 
-The API-shopping will return the json file with the price of items from TESCO based on the request:
+The API-shopping will return a json file with the price of items from TESCO based on the request below:
 
 ```bash
 http://localhost:8080/shopping?item=banana

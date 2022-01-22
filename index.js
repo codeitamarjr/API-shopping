@@ -18,17 +18,28 @@ app.get('/shopping', function(req, res) {
             const html = response.data
             const $ = cheerio.load(html)
 
-
-
-            $('h3.inBasketInfoContainer', html).each(function() {
-                const product = $(this).text()
-                const price = $('span.linePrice').text()
-                    //const price = $('h3.inBasketInfoContainer').find('span.linePrice')
-                itemsList.push({
-                    product,
-                    price
-                })
+            $('ul>li', html).each(function() {
+                const product = $(this).find('h3.inBasketInfoContainer').text()
+                const price = $(this).find('span.linePrice').text()
+                if (!product == 0) {
+                    itemsList.push({
+                        product,
+                        price
+                    })
+                }
             })
+
+
+
+            // $('h3.inBasketInfoContainer', html).each(function() {
+            //     const product = $(this).text()
+            //     const price = $('span.linePrice').text()
+            //         //const price = $('h3.inBasketInfoContainer').find('span.linePrice')
+            //     itemsList.push({
+            //         product,
+            //         price
+            //     })
+            // })
 
 
 

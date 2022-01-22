@@ -28,7 +28,7 @@ http://localhost:8080/shopping?item=banana
 In the example above, the result will bring the price of items with the word bananas on Tesco online store.
 
 To check a live example of the API working you can visit this address [API-shopping on HEROKU](https://api-shopping.herokuapp.com/
-) and here is a test for the item bananas [API-shopping on HEROKU](https://api-shopping.herokuapp.com/shopping?item=bananas
+) and here is a test for the item bananas [API-shopping working and searching for BANANAS](https://api-shopping.herokuapp.com/shopping?item=bananas
 )
 
 
